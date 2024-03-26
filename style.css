@@ -1,5 +1,5 @@
 * {
-    font-family: Helvetica;
+    font-family: Montserrat, Arial, Helvetica, sans-serif, sans-serif;
     box-sizing: border-box;
     margin:0;
 }
@@ -23,6 +23,7 @@ header {
     z-index: 100;
 }
 
+
 section {
     display: -webkit-flex;
     display: flex;
@@ -34,7 +35,7 @@ p, h2, a {
     padding:5px;
 }
 
-#iwonder {
+#navbg {
     width: 30%;
     min-width: 300px;
     position: fixed;
@@ -42,6 +43,15 @@ p, h2, a {
     background-color: rgb(215, 0, 105, 0.7);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    transition: background-color 0.5s;
+}
+
+nav:hover ~ #navbg {
+    background-color: rgb(215, 0, 105);
+}
+
+#navbg:hover {
+    background-color: rgb(215, 0, 105);
 }
 
 nav {
@@ -86,5 +96,8 @@ article {
         backdrop-filter: blur(10px);
     }
 }
+
+// <uniquifier > : Use a unique and descriptive class name
+// <weight > : Use a value from 100 to 900
 
 
