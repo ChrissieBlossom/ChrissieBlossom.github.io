@@ -17,7 +17,7 @@ header {
     text-align: center;
     color: #FFFFFFFF;
     padding: 15px;
-    font-size: min(calc(2vw + 2vh), 200%);
+    font-size: min(5vw, 200%);
     width:100%;
     top: 0;
     z-index: 100;
@@ -64,7 +64,7 @@ article {
     flex: 70%;
     height: 100%;
     padding: 20px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 
