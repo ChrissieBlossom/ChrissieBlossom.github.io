@@ -86,7 +86,7 @@ article {
         flex-direction:column;
     }
 
-    #iwonder {
+    #navbg {
         display:none;
     }
 
@@ -97,7 +97,6 @@ article {
     }
 }
 
-// <uniquifier > : Use a unique and descriptive class name
-// <weight > : Use a value from 100 to 900
+
 
 
